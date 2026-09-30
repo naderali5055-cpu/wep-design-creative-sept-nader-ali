@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task</h1>
+    <form action="" method="post" autocomplete="off">
+<div>
+    <label for="">firstName</label>
+    <input name="firstName" placeholder="name"  type="text" pattern="[A-Za-z]{3 , 25}" required autofocus >
+</div>
+<div>
+    <label for="phone">Phone</label>
+    <input
+        type="tel"
+        id="phone"
+        name="Number"
+        pattern="(010|011|012|015)[0-9]{8}"
+        maxlength="11"
+        inputmode="numeric"
+        title="Enter an 11-digit number starting with 010, 011, 012, or 015"
+        required
+    >
+</div>
+<div>
+    <label for="browser">Choose your browser:</label>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+ <option value="Edge">
+ <option value="Firefox">
+ <option value="Chrome">
+ <option value="Opera">
+ <option value="Safari">
+</datalist>
+</div>
+<div>
+    <textarea name="" id="" maxlength="100" minlength="20" rows="15" cols="48" placeholder="latters"></textarea>
+</div> 
+<div>
+    <label for="">date</label>
+    <input type="date" required>
+
+</div>
+<div>
+    <label for="">ID</label>
+    <input
+        type="text"
+       
+        name="id"
+        pattern="[0-9]{14}"
+        maxlength="14"
+        inputmode="numeric"
+        title="Enter a 14-digit ID number"
+        required
+    >
+</div>
+
+
+
+
+
+
+<input type="submit">
+    </form>
+    
+</body>
+</html>
