@@ -115,12 +115,12 @@ width: 100%;
 padding-bottom: 5%;
 }
 .card-1{
-    width: 30%;
+    width: 29%;
     display: inline-block;
     border-radius: 15px;
     border: 2px solid rgba(211, 211, 211, 0.377);
     padding: 5% 5%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 .p4{
 font-size: 30px;
@@ -193,12 +193,23 @@ img{
     margin-right: 80%;
 }
 .stats {
+
     background-color: #4019c1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 50px 5%;
-    text-align: center;
+    height: 200px;
+    padding: 50px 6%;
     color: white;
+}
+.stat01{
+    width: 100%;
+    margin: 0px  auto;
+    text-align: center;
+    padding: 0 4%;
+}
+.stat01 .stat{
+    display: inline-block;
+    margin: 0 50px;
+    padding: 0 4%;
+
 }
 
 .stat i {
