@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nava {
+    background-color: rgb(62, 20, 102);
+    padding: 12px 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 1% 0%;
+    display:inline-block;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.text-white {
+    color: white;
+}
+
+nav h1, nav li, nav img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul {
+display: inline-block;
+    margin-left:60%;
+    margin-top: .5%;
+}
+
+nav li {
+    margin-left: 24px;
+}
+
+nav img {
+    width: 32px;
+    height: 32px;
+
+    margin-left: 1%;
+}
+
+.img {
+    background-image: url(./imges/abstract-minimalistic-low-poly-background-with-geometrical-pattern_851812-35.jpg);
+    height: 400px;             
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav h1{
+    font-size: 25px;
+}
+.container1{
+
+    text-align: center;
+    padding-top: 8%;
+}
+h2{ 
+    font-size: 60px;
+    vertical-align: top;
+}
+.pp{
+    font-size: 25px;
+    color: lightgray;
+}
+button {
+    display: inline-block;
+    padding: 1% 3%;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 2% 1%;
+}
+.get{
+    background-color: goldenrod;
+}
+.watch{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.btn{
+    border: 3px solid white;
+}
+.text-pur{
+        color: rgba(37, 43, 109, 0.877);
+}
+.text-gray{
+    color: grey;
+}
+.why{
+      text-align: center;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+h3{
+     font-size: 60px;
+    vertical-align: top;
+}
+.p3{
+font-size: 27px;
+padding-top: 1%;
+width: 100%;
+padding-bottom: 5%;
+}
+.card-1{
+    width: 30%;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px solid rgba(211, 211, 211, 0.377);
+    padding: 5% 5%;
+    margin-left: 2%;
+}
+.p4{
+font-size: 30px;
+padding-bottom: 3%;
+}
+.p5{
+    font-size: 20px;
+    vertical-align: top;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10%  ;
+    background-color: #e8eefc;    
+    color: #2a52a8;
+    border-radius: 50%;
+    font-size: 32px;
+}
+.icon3{
+padding-top: 25%;
+}
+.courses {
+    text-align: center;
+    padding: 70px 5%;
+    background-color: #f5f6fa;
+
+    width: 100%;
+}
+
+.courses h4 {
+    font-size: 50px;
+}
+.card-2{
+     width: 30%;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px solid rgba(211, 211, 211, 0.377);
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
+img{
+    width: 100%;
+    height:200px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.p6 {
+    font-size: 20px;
+    margin-right: 65%;
+    margin-bottom: 2%;
+}
+
+.meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 3%;
+     margin-right: 60%;
+     /* display: inline-block; */
+     vertical-align: top;
+}
+
+.price {
+    display: inline-block;
+    background: #1fa463;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 80%;
+}
+.stats {
+    background-color: #4019c1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 5%;
+    text-align: center;
+    color: white;
+}
+
+.stat i {
+    font-size: 36px;
+    color: #f5a623;         
+    margin-bottom: 8px;
+}
+
+.stat h5 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.stat p {
+    font-size: 16px;
+    color: #c9d6f5;         
+}.contact {
+    text-align: center;
+    padding: 70px 5%;
+}
+
+.contact h3 {
+    font-size: 50px;
+    color: #12234f;
+}
+
+.contact .p3 {
+    font-size: 16px;
+    color: #777;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.contact-cards {
+   
+    width: 100%;
+}
+
+
+   .contact-card {
+     width: 30%;
+    display: inline-block;
+    border-radius: 15px;
+    border-top: 5px solid rgb(50, 20, 168);
+    padding: 5% 5%;
+    margin-left: 2%;
+    background-color: rgba(211, 211, 211, 0.185);
+}
+
+.contact-card i {
+    font-size: 30px;
+    color: #2a52a8;
+    margin-bottom: 10px;
+}
+
+.contact-card h6 {
+    font-size: 18px;
+    color: #12234f;
+    margin-bottom: 6px;
+}
+
+.contact-card p {
+    font-size: 16px;
+    color: #777;
+}
+.footer {
+    background-color: #5d24bf;
+    text-align: center;
+    padding: 40px 5% 36px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social a {
+    width: 50px;
+    height: 50px;
+    background-color: #361564;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    justify-content: center;
+}
+.icon4{
+    padding-top: 35%;
+}
+
+
+.footer p {
+    font-size: 16px;
+    color: #b8c2de;
+}
+
