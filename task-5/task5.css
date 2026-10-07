@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card{
+    width: 30%;
+    margin: auto;
+    background-color: rgba(211, 211, 211, 0.152);
+    border: 2px solid lightgray ;
+    text-align: center;
+    margin-top: 20%;
+    border-radius: 10px;
+    padding: 5%;
+
+    
+}
+h2{
+    color: blue;
+    margin-bottom: 10%; 
+}
+.icon a{
+    color: rgba(0, 0, 255, 0.711);
+    background-color: lightgray;
+    width: 25px;
+    height: 25px;
+    padding: 3%;
+    border-radius: 15px;
+    
+}
+.fp{
+    color: blue;
+    font-size: 100px;
+position: absolute;
+bottom: 52%;
+    left: 45%;
+
+}
+.badge {
+    position: absolute;
+    bottom: 53%;
+    right: 34%;
+    background-color: #f5a623;
+    color: #12234f;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 14px;
+}

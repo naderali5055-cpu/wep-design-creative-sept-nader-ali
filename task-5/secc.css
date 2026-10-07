@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-white{
+    color: white;
+}
+.text-orange{
+color: orange;
+}
+.img{
+    background-image: url(./imges/81a6e74c8adbf7f55406e8c4b80669d5.jpg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.over{
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 100%;
+    text-align: center;
+    padding-top: 5%;  
+}
+.container{
+width: 100%;
+margin: auto;
+display: inline-block;
+padding: 5%;
+
+
+}
+.container2{
+    width: 37%;
+    display: inline-block;
+    vertical-align: top;
+}
+.hr-style{
+    width: 10%;
+    margin: 2% 1%;
+    border: solid 2px;
+    
+    
+}
+p{
+    color: lightgray;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 1% 4%;
+    border: 2px solid white;
+    margin: 2% 0;
+    display: block;
+    
+    
+}
+.form {
+    width: 30%;
+    margin: auto;
+    border-style: none;
+    display: inline-block;
+    margin-left:24%;
+    margin-bottom: 8%;
+}
+
+form {
+
+    margin: auto;
+
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+
+form h3 {
+    background-color: #f4f4f4;
+    color: #222;
+    font-size: 22px;
+    padding: 18px 10px;
+}
+
+
+form input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 30px auto 0;
+    padding: 10px 5px;
+    display: block;
+    font-size: 15px;
+}
+
+
+.btr {
+    background-color: #ff9a4d;
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+h2{
+    text-align: left;
+    font-size: 35px;
+}
+h1{
+    text-align: left;
+    font-size: 65px;
+
+}
+p{
+    text-align: left;
+    font-size: 15px;
+    padding: 2% 0;
+}
