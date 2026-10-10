@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.text-white{
+    color: white;
+}
+.text-gray{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    color: white;
+}
+.conteinar{
+    width: 80%;
+    margin: auto;
+}
+.w-100{
+    width: 100%;
+}
+nav ul{
+    width: 80%;
+    column-gap: 25px;
+    justify-content: end;
+    color: white;
+}
+.img{
+    background-image: url(./imges/81a6e74c8adbf7f55406e8c4b80669d5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr{
+    width: 80%;
+    margin: 1% auto;
+    border: solid 1px lightgrey;
+}
+.over{
+    background-color: rgba(0, 0, 0, 0.432);
+    text-align: center;
+    padding-top: 1%;
+}
+.card{
+    padding-top: 27%;
+    padding-bottom: 2%;
+    gap: 18px;
+}
+.card-1{
+    gap: 5px;
+    width: 25%;
+    font-size: 12px;
+}
+.card-2{
+    gap: 5px;
+    width: 25%;
+    font-size: 12px;
+}
+.p-style{
+    width: 70px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #999;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ppp{
+    border-color: blue;
+    border-left-color: gray;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+section ul{
+    width: 60%;
+    column-gap: 25px;
+    justify-content: end;
+}
+.text-black{
+    color: black;
+}
+h3{
+    gap: 25px;
+}
+img{
+    display: block;
+}
+
+.main-layout{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.main-layout > section{
+    width: 66%;
+}
+.main-layout .conteinar-1,
+.main-layout .conteinar-2{
+    width: 100%;
+}
+.conteinar-1{
+    width: 60%;
+    padding-top: 7%;
+    margin: auto;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.437);
+}
+.conteinar-2{
+    display: flex;
+    align-items: flex-start;
+    gap: 4%;
+    margin: auto;
+    width: 70%;
+    padding-top: 3%;
+}
+.card-big{
+    width: 46%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    border: 5px solid #eee;
+}
+.img-big{
+    position: relative;
+}
+.img-big img{
+    width: 100%;
+    height: auto;
+}
+.tag{
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    padding: 2% 5%;
+    background: white;
+    color: #3026a7;
+    font-size: 11px;
+}
+.content{
+    padding: 7%;
+}
+.content h3{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+.content p,
+.trend-content p{
+    font-size: 13px;
+    color: #888;
+    line-height: 2;
+    margin-bottom: 7%;
+}
+.content small,
+.small-story small,
+.trend-content small,
+.latest-card small,
+.video-content small{
+    color: #888;
+    font-size: 11px;
+}
+.list{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-small{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid #eee;
+}
+.card-small img{
+    width: 35%;
+}
+.card-small .text{
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-small h4{
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.right-column{
+    width: 30%;
+    padding-top: 7%;
+    border-left: 1px solid #eee;
+    padding-left: 3%;
+}
+.card-section{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.card-section h3{
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.card-section > p{
+    color: #888;
+    font-size: 13px;
+    line-height: 2;
+}
+.card-right{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    border: 2px solid #eee;
+}
+.card-right img{
+    width: 70px;
+    height: 70px;
+}
+.card-right h4{
+    font-size: 12px;
+    line-height: 2;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-links a{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #777;
+}
+.pick-image{
+    width: 100%;
+
+    margin-bottom: 12px;
+}
+.card-section h4{
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+.main-layout .trend-head{
+    padding-top: 5%;
+}
+.main-layout > section a.active{
+    color: #3026a7;
+}
+
+.trend-grid{
+    display: flex;
+    gap: 4%;
+    padding-top: 3%;
+}
+.trend-col{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.trend-col .card-big{
+    width: 100%;
+}
+
+
+.banners{
+    width: 80%;
+    margin: 80px auto 60px;
+    display: flex;
+    gap: 2%;
+}
+.banner{
+    position: relative;
+    width: 32%;
+    height: 200px;
+    
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+
+}
+.banner-over{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 0 8%;
+}
+.banner-over .tag{
+    position: static;
+    padding: 4px 14px;
+}
+.banner-over h3{
+    font-size: 18px;
+    line-height: 2;
+}
+.banner-over small{
+    font-size: 11px;
+}
+
+.bottom-layout{
+    align-items: flex-start;
+}
+.latest{
+    width: 64%;
+}
+.videos{
+    width: 32%;
+}
+.block-title{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.latest-card{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 8px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    border: 2px solid #eee;
+}
+.latest-card img{
+    width: 250px;
+    height: 250px;
+}
+.latest-content{
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.latest-content h3{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.latest-content p{
+    font-size: 13px;
+    color: #888;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.latest-card small{
+    color: #888;
+    font-size: 11px;
+}
+.video-card{
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    border: 2px solid #eee;
+}
+.video-card .img-big img{
+    width: 100%;
+    height: 230px;
+
+}
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.9);
+    color: #555;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-content{
+    padding: 6%;
+}
+.video-content h3{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.video-content p{
+    font-size: 13px;
+    color: #888;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+
+.load-more{
+    text-align: center;
+    margin: 60px 0 80px;
+}
+.load-more button{
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+footer{
+    background: #1b1b1b;
+    color: white;
+    padding: 60px 0;
+}
+.footer-inner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.f1{
+    width: 28%;
+}
+.f1 h2{
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.f1 p{
+    font-size: 12px;
+    line-height: 1.7;
+    color: #ccc;
+}
+.footer-links{
+    width: 36%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 18px;
+    padding-top: 10px;
+}
+.footer-links li{
+    width: 33%;
+}
+.footer-links a{
+    color: #ccc;
+    font-size: 13px;
+}
+.f3{
+    width: 32%;
+}
+.f3 h4{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.sub-input{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #666;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+.sub-input input{
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+.f3 small{
+    font-size: 11px;
+    color: #ccc;
+}
