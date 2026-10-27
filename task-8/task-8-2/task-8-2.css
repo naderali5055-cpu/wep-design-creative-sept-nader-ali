@@ -1,0 +1,395 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    margin: auto;
+    padding: 25px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #25606a;
+    font-size: 16px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 93%;
+    margin: 60px auto 40px;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.join {
+    padding: 12px 50px;
+    background-color: teal;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    border: none;
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.images img {
+    width: 50%;
+    height: 260px;
+    border-radius: 10px;
+    display: block;
+}
+.well {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 93%;
+    margin: 40px auto;
+    padding: 50px 80px 0;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.well-text {
+    width: 55%;
+    padding-bottom: 7%;
+}
+
+.well h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.well-items {
+    display: flex;
+    gap: 70px;
+}
+
+.well-item {
+    width: 220px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.well-item p {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.well-img {
+    width: 25%;
+margin-bottom: 2%;
+    display: block;
+}
+.fresh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 93%;
+    margin: 60px auto;
+}
+
+.fresh-img {
+    width: 40%;
+    border-radius: 12px;
+    display: block;
+}
+
+.fresh-text {
+    width: 50%;
+
+}
+
+.fresh h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.fresh-desc {
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.fresh-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.fresh-item p {
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+.circle-icon {
+
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid teal;
+    border-radius: 50%;
+    color: teal;
+    font-size: 18px;
+}
+.eat {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 93%;
+    margin: 60px auto;
+    padding: 40px 100px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.eat-img {
+    width: 25%;
+
+    display: block;
+}
+
+
+.eat h2 {
+    font-size: 60px;
+    margin-bottom: 35px;
+     padding-left: 15%;
+    
+}
+
+.eat-items {
+    display: flex;
+    gap: 70px;
+}
+
+.eat-item {
+    width:50%;
+    padding-left: 15%;
+}
+
+.eat-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8bfae;
+    color: black;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.eat-item p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.forest {
+    position: relative;
+    width: 93%;
+    margin: 60px auto 0;
+    padding-bottom: 130px;
+}
+
+.forest-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 600px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("./imges/forest.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.leaf-box {
+    width: 62px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 26px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.forest-top h2 {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.forest-top p {
+    width: 50%;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.join-line {
+    padding: 11px 55px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.forest-bottom {
+    position: absolute;
+    top: 430px;
+    right: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+    background-color: #edc7b7;
+    border-radius: 8px;
+}
+
+.plant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.plant-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.plant p {
+    font-size: 17px;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 55px 100px 65px;
+    background-color: teal;
+    color: white;
+}
+
+.foot-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.foot-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.foot-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.foot-icons {
+    display: flex;
+    gap: 18px;
+    font-size: 16px;
+}
+
+.foot-icons i {
+    cursor: pointer;
+}
+
+.foot-menu {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.foot-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
