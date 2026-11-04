@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.padding-top-bottom{
+    padding: 0 5% 0 10%;
+}
+.card{
+width: 100px;
+height: 100px;
+background-color: teal;
+margin-top: 4%;
+border-radius: 50%;
+animation-name: changeBgColor  ;
+animation-duration: 3s;
+animation-iteration-count:infinite ;
+/* animation-direction: alternate;
+animation-direction: alternate-reverse; */
+/* animation-delay: 2s; */
+animation-timing-function: linear;
+animation: changeBgColor infinite linear 4s , changeBorder 3s infinite ;
+}
+.card:hover{
+    animation-play-state: paused;
+}
+@keyframes changeBgColor {
+/* from{
+background-color: aqua;
+border-radius: 0%;
+}
+to{
+background-color: black;
+border-radius: 50%;
+} */
+
+0%{
+    background-color: brown;
+    
+}
+25%{
+transform: translateX(200px);
+}
+50%{
+    transform: translate(200px,200px);
+}
+75%{
+transform: translate(0px,200px);
+}
+100%{
+
+}
+}
+@keyframes changeBorder{
+    from{
+        border: 10px solid black;
+    }
+}
